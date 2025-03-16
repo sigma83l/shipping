@@ -8,24 +8,24 @@ type MenuItemType = { label: string; href: string };
 // Define the menu structure with explicit keys
 const menuItems: Record<string, MenuItemType[]> = {
   Company: [
-    { label: "About Us", href: "/about" },
-    { label: "Our Team", href: "/team" },
-    { label: "Careers", href: "/careers" },
+    { label: "About Us", href: "/company/history" },
+    { label: "Our Team", href: "/company/team" },
+    { label: "Careers", href: "/company/careers" },
   ],
   Services: [
-    { label: "Web Development", href: "/services/web-dev" },
-    { label: "SEO", href: "/services/seo" },
-    { label: "Marketing", href: "/services/marketing" },
+    { label: "Web Development", href: "/services/warehousing" },
+    { label: "SEO", href: "/services/courier" },
+    { label: "Marketing", href: "/services/freight" },
   ],
   Support: [
-    { label: "Help Center", href: "/support/help" },
-    { label: "Contact Us", href: "/support/contact" },
-    { label: "FAQ", href: "/support/faq" },
+    { label: "Help Center", href: "/contact/help" },
+    { label: "Contact Us", href: "/contact/contact" },
+    { label: "FAQ", href: "/contact/faq" },
   ],
   "Member Area": [
-    { label: "Dashboard", href: "/member/dashboard" },
-    { label: "Settings", href: "/member/settings" },
-    { label: "Logout", href: "/logout" },
+    { label: "Dashboard", href: "/admin/dashboard" },
+    { label: "Settings", href: "/admin/settings" },
+    { label: "Logout", href: "/admin/logout" },
   ],
 };
 
